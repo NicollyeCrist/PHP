@@ -1,0 +1,17 @@
+<?php
+$nota1= 7;
+$nota2= 8;
+$nota3= 9;
+$média= (($nota1 + $nota2 + $nota3)/3);
+
+if($média>=7) {
+    echo "Aprovado";
+}
+    elseif(($média<7) && (média>=4)) {
+    echo "Prova Final";
+}
+    else {
+        echo "Reprovado";
+    }
+
+?>
